@@ -1,0 +1,33 @@
+name: responsive_design
+description: Various responsive layouts and Flow - A sample Flutter project showing responsive design.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  random_color: ^1.0.5
+  fraction:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: SansitaSwashed
+      fonts:
+        - asset: fonts/SansitaSwashed-Regular.ttf
+
+    - family: GoogleSans
+      fonts:
+        - asset: fonts/GoogleSans-Regular.ttf
